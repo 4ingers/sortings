@@ -1,0 +1,10 @@
+.container {
+  width: 60vw;
+  height: 40vh;
+  border: 8px rgb(27, 27, 27) solid;
+  border-radius: 6px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 6px;
+}

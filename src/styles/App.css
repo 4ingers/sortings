@@ -1,0 +1,39 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.dropdown {
+  background-color: #3b465f;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.dropdown-control {
+  background-color: #3b465f;
+  border: none;
+  border-radius: 8px;
+  color: #d4d9e4;
+}
+
+.dropdown-arrow {
+  align-self: center;
+}
+
+.dropdown-menu {
+  background-color: #3b465f;
+  color: #d4d9e4;
+}
