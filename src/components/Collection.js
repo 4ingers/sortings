@@ -4,6 +4,7 @@ import Item from '@components/Item';
 const Collection = ({ collection }) => {
   return (
     <div className='container'>
+      //TODO: Серега уронил тут, пошагово выполняя `insertion`
       {collection.map(({ value, color }) => (
         <Item
           value={value}
