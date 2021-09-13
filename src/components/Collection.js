@@ -3,8 +3,8 @@ import Item from '@components/Item';
 
 const Collection = ({ collection }) => {
   return (
+    //TODO: Серега уронил тут, пошагово выполняя `insertion`
     <div className='container'>
-      //TODO: Серега уронил тут, пошагово выполняя `insertion`
       {collection.map(({ value, color }) => (
         <Item
           value={value}
